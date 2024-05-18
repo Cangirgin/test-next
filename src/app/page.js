@@ -1,10 +1,14 @@
+import TodoApp from '@/components/todo-app'
 import React from 'react'
 
 const HomePage = () => {
-  return (
-    <div>
 
-    </div>
+  return (
+    <>
+      <div style={{ height: "100px" }}></div>
+      <TodoApp />
+
+    </>
   )
 }
 
